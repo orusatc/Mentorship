@@ -1,0 +1,224 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 11,
+    "unknown" : 0,
+    "total" : 11
+  },
+  "time" : {
+    "minDuration" : 0,
+    "maxDuration" : 62769,
+    "sumDuration" : 103210,
+    "start" : 1613907124781,
+    "stop" : 1613907210293,
+    "duration" : 85512
+  },
+  "children" : [ {
+    "uid" : "e232bb9c1e5fd416",
+    "name" : "DESKTOP-AAJ02US",
+    "time" : {
+      "minDuration" : 0,
+      "maxDuration" : 62769,
+      "sumDuration" : 103210,
+      "start" : 1613907124781,
+      "stop" : 1613907210293,
+      "duration" : 85512
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 11
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "c4d187f054456597",
+      "name" : "7812@DESKTOP-AAJ02US.main(1)",
+      "time" : {
+        "minDuration" : 0,
+        "maxDuration" : 18,
+        "sumDuration" : 25,
+        "start" : 1613907210193,
+        "stop" : 1613907210293,
+        "duration" : 100
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "e3d23fdae9888922",
+        "name" : "description annotation: Test1 Before\\After suite, test, class, method, groups",
+        "time" : {
+          "start" : 1613907210252,
+          "stop" : 1613907210252,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "4c076244d2777874",
+        "name" : "test annotation: calculaorTest4, check division ",
+        "time" : {
+          "start" : 1613907210229,
+          "stop" : 1613907210230,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "9ca2b977cc504381",
+        "name" : "test annotation: calculaorTest2, check addition ",
+        "time" : {
+          "start" : 1613907210215,
+          "stop" : 1613907210217,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "9715142074f61084",
+        "name" : "test annotation: calculaorTest3, check multiplication ",
+        "time" : {
+          "start" : 1613907210223,
+          "stop" : 1613907210225,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "decb03453292d4cd",
+        "name" : "test annotation: calculatorTest1, check addition ",
+        "time" : {
+          "start" : 1613907210292,
+          "stop" : 1613907210293,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "a0524d6bb324de0f",
+        "name" : "test annotation: calculaorTest1, check subtraction ",
+        "time" : {
+          "start" : 1613907210193,
+          "stop" : 1613907210211,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "e68cb7bf5556f4a3",
+        "name" : "description annotation: Test3 Before\\After suite, test, class, method, groups",
+        "time" : {
+          "start" : 1613907210275,
+          "stop" : 1613907210276,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "1ddbbb9869fdb6c8",
+      "name" : "7812@DESKTOP-AAJ02US.TestNG-tests-1(12)",
+      "time" : {
+        "minDuration" : 6000,
+        "maxDuration" : 62769,
+        "sumDuration" : 68769,
+        "start" : 1613907138932,
+        "stop" : 1613907207707,
+        "duration" : 68775
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "315b3682c3a48476",
+        "name" : "files upload download",
+        "time" : {
+          "start" : 1613907138932,
+          "stop" : 1613907201701,
+          "duration" : 62769
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "720fcb795a5bc9f",
+        "name" : "Checking login to the email and sending the mail",
+        "time" : {
+          "start" : 1613907201707,
+          "stop" : 1613907207707,
+          "duration" : 6000
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "c5ae7f0fd7e1a508",
+      "name" : "7812@DESKTOP-AAJ02US.TestNG-tests-2(13)",
+      "time" : {
+        "minDuration" : 4018,
+        "maxDuration" : 30398,
+        "sumDuration" : 34416,
+        "start" : 1613907124781,
+        "stop" : 1613907159462,
+        "duration" : 34681
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "eb891d7e876ea7dd",
+        "name" : "files upload download",
+        "time" : {
+          "start" : 1613907124781,
+          "stop" : 1613907155179,
+          "duration" : 30398
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "33190e95c83c5b43",
+        "name" : "Checking login to the email and sending the mail",
+        "time" : {
+          "start" : 1613907155444,
+          "stop" : 1613907159462,
+          "duration" : 4018
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

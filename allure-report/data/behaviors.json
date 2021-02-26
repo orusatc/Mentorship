@@ -1,0 +1,193 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test annotation: calculaorTest1, check subtraction ",
+    "uid" : "d9093ec7123eacb7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613034840236,
+      "stop" : 1613034840260,
+      "duration" : 24
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "test annotation: calculaorTest2, check addition ",
+    "uid" : "bf537c2427e58585",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613034840453,
+      "stop" : 1613034840455,
+      "duration" : 2
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "test annotation: calculaorTest3, check multiplication ",
+    "uid" : "b714281653afa478",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613034840472,
+      "stop" : 1613034840474,
+      "duration" : 2
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "test annotation: calculaorTest4, check division ",
+    "uid" : "b614039eda454616",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613034840478,
+      "stop" : 1613034840479,
+      "duration" : 1
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "description annotation: Test1 Before\\After suite, test, class, method, groups",
+    "uid" : "da63221823486c2e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613464784367,
+      "stop" : 1613464784378,
+      "duration" : 11
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "description annotation: Test3 Before\\After suite, test, class, method, groups",
+    "uid" : "bfe95b86ea095e83",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613464784423,
+      "stop" : 1613464784424,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Functional test",
+    "children" : [ {
+      "name" : "Login test",
+      "children" : [ {
+        "name" : "setLogin",
+        "uid" : "c63a1f8f1ab77e5c",
+        "parentUid" : "a890ec74c5535eb4c6dcc684362e2aeb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613830259525,
+          "stop" : 1613830259528,
+          "duration" : 3
+        },
+        "flaky" : true,
+        "parameters" : [ "Firefox" ]
+      }, {
+        "name" : "files upload download",
+        "uid" : "35e178de86c11cdc",
+        "parentUid" : "a890ec74c5535eb4c6dcc684362e2aeb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613831467933,
+          "stop" : 1613831496288,
+          "duration" : 28355
+        },
+        "flaky" : true,
+        "parameters" : [ "Chrome" ]
+      }, {
+        "name" : "files upload download",
+        "uid" : "57acc766eb044d5c",
+        "parentUid" : "a890ec74c5535eb4c6dcc684362e2aeb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613831480569,
+          "stop" : 1613831543342,
+          "duration" : 62773
+        },
+        "flaky" : true,
+        "parameters" : [ "Firefox" ]
+      }, {
+        "name" : "Checking login to the email and sending the mail",
+        "uid" : "26aba3944d259086",
+        "parentUid" : "a890ec74c5535eb4c6dcc684362e2aeb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613831496506,
+          "stop" : 1613831503411,
+          "duration" : 6905
+        },
+        "flaky" : true,
+        "parameters" : [ "Chrome" ]
+      }, {
+        "name" : "Checking login to the email and sending the mail",
+        "uid" : "1406dcbc354de623",
+        "parentUid" : "a890ec74c5535eb4c6dcc684362e2aeb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613831543352,
+          "stop" : 1613831548242,
+          "duration" : 4890
+        },
+        "flaky" : true,
+        "parameters" : [ "Firefox" ]
+      } ],
+      "uid" : "a890ec74c5535eb4c6dcc684362e2aeb"
+    } ],
+    "uid" : "ce145f0a56e9bab602a41e15740e481d"
+  }, {
+    "name" : "test annotation: calculaorTest1, check subtraction ",
+    "uid" : "44e9ee63f2988b78",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613830601589,
+      "stop" : 1613830601618,
+      "duration" : 29
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test annotation: calculaorTest2, check addition ",
+    "uid" : "166bd924bde91765",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613830601766,
+      "stop" : 1613830601772,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test annotation: calculaorTest3, check multiplication ",
+    "uid" : "d09062ceffebee70",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613830601779,
+      "stop" : 1613830601780,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test annotation: calculaorTest4, check division ",
+    "uid" : "b34b32350d396be6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613830601785,
+      "stop" : 1613830601789,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

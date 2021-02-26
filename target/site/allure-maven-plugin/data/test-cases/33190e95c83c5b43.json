@@ -1,0 +1,106 @@
+{
+  "uid" : "33190e95c83c5b43",
+  "name" : "Checking login to the email and sending the mail",
+  "fullName" : "tests.lesson1.pageObject.SendEmailTest.checkingLoginToTheEmailAndSendingTheMail",
+  "historyId" : "a66667479d2926cafd1b2ddb4fdc15a9",
+  "time" : {
+    "start" : 1613907155444,
+    "stop" : 1613907159462,
+    "duration" : 4018
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "setLogin",
+    "time" : {
+      "start" : 1613907121459,
+      "stop" : 1613907124643,
+      "duration" : 3184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1613907114975,
+      "stop" : 1613907121447,
+      "duration" : 6472
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1613907207721,
+      "stop" : 1613907210184,
+      "duration" : 2463
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.lesson1.pageObject.SendEmailTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.lesson1.pageObject.SendEmailTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkingLoginToTheEmailAndSendingTheMail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite for parallel run"
+  }, {
+    "name" : "suite",
+    "value" : "SendEmailTest using Chrome"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.lesson1.pageObject.SendEmailTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AAJ02US"
+  }, {
+    "name" : "thread",
+    "value" : "7812@DESKTOP-AAJ02US.TestNG-tests-2(13)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Functional test"
+  }, {
+    "name" : "feature",
+    "value" : "Login test"
+  } ],
+  "parameters" : [ {
+    "name" : "browserType",
+    "value" : "Chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

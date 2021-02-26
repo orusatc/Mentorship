@@ -1,0 +1,233 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "tests.BeforeAfterSuiteTestClassMethod.lesson1",
+    "children" : [ {
+      "name" : "Structure, parallel, parameter passing",
+      "children" : [ {
+        "name" : "tests.lesson1.Calculator.CalculatorTest",
+        "children" : [ {
+          "name" : "test annotation: calculaorTest1, check subtraction ",
+          "uid" : "d9093ec7123eacb7",
+          "parentUid" : "1de6aeaa25d087abddb173199a2e37d8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613034840236,
+            "stop" : 1613034840260,
+            "duration" : 24
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "test annotation: calculaorTest2, check addition ",
+          "uid" : "bf537c2427e58585",
+          "parentUid" : "1de6aeaa25d087abddb173199a2e37d8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613034840453,
+            "stop" : 1613034840455,
+            "duration" : 2
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "test annotation: calculaorTest3, check multiplication ",
+          "uid" : "b714281653afa478",
+          "parentUid" : "1de6aeaa25d087abddb173199a2e37d8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613034840472,
+            "stop" : 1613034840474,
+            "duration" : 2
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "test annotation: calculaorTest4, check division ",
+          "uid" : "b614039eda454616",
+          "parentUid" : "1de6aeaa25d087abddb173199a2e37d8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613034840478,
+            "stop" : 1613034840479,
+            "duration" : 1
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1de6aeaa25d087abddb173199a2e37d8"
+      }, {
+        "name" : "tests.lesson1.calculator.CalculatorTest",
+        "children" : [ {
+          "name" : "test annotation: calculaorTest1, check subtraction ",
+          "uid" : "44e9ee63f2988b78",
+          "parentUid" : "2052b6b08c9ce4e6491a344f60d30121",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613830601589,
+            "stop" : 1613830601618,
+            "duration" : 29
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test annotation: calculaorTest2, check addition ",
+          "uid" : "166bd924bde91765",
+          "parentUid" : "2052b6b08c9ce4e6491a344f60d30121",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613830601766,
+            "stop" : 1613830601772,
+            "duration" : 6
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test annotation: calculaorTest3, check multiplication ",
+          "uid" : "d09062ceffebee70",
+          "parentUid" : "2052b6b08c9ce4e6491a344f60d30121",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613830601779,
+            "stop" : 1613830601780,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test annotation: calculaorTest4, check division ",
+          "uid" : "b34b32350d396be6",
+          "parentUid" : "2052b6b08c9ce4e6491a344f60d30121",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613830601785,
+            "stop" : 1613830601789,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2052b6b08c9ce4e6491a344f60d30121"
+      } ],
+      "uid" : "9a391d98df523b6f0b48b03ec18d4700"
+    } ],
+    "uid" : "a769fceb9b73abeebb29be1d57034f0b"
+  }, {
+    "name" : "tests.lesson1.beforeAfterSuiteTestClassMethod",
+    "children" : [ {
+      "name" : "BeforeAfterSuiteTestClassMethod",
+      "children" : [ {
+        "name" : "tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod",
+        "children" : [ {
+          "name" : "description annotation: Test1 Before\\After suite, test, class, method, groups",
+          "uid" : "da63221823486c2e",
+          "parentUid" : "0eddd75fe3cbfdbaa26f75449a42c2d6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613464784367,
+            "stop" : 1613464784378,
+            "duration" : 11
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "description annotation: Test3 Before\\After suite, test, class, method, groups",
+          "uid" : "bfe95b86ea095e83",
+          "parentUid" : "0eddd75fe3cbfdbaa26f75449a42c2d6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613464784423,
+            "stop" : 1613464784424,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0eddd75fe3cbfdbaa26f75449a42c2d6"
+      } ],
+      "uid" : "f129ae994c5b6a5f59816e87493225da"
+    } ],
+    "uid" : "4af90e378fd33d8ce21b68f42c5d9584"
+  }, {
+    "name" : "Suite for parallel run",
+    "children" : [ {
+      "name" : "SendEmailTest using Mozilla",
+      "children" : [ {
+        "name" : "tests.lesson1.pageObject.SendEmailTest",
+        "children" : [ {
+          "name" : "setLogin",
+          "uid" : "c63a1f8f1ab77e5c",
+          "parentUid" : "14164ddfb19635ffca7dd0d8d4f9ea83",
+          "status" : "broken",
+          "time" : {
+            "start" : 1613830259525,
+            "stop" : 1613830259528,
+            "duration" : 3
+          },
+          "flaky" : true,
+          "parameters" : [ "Firefox" ]
+        }, {
+          "name" : "files upload download",
+          "uid" : "57acc766eb044d5c",
+          "parentUid" : "14164ddfb19635ffca7dd0d8d4f9ea83",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613831480569,
+            "stop" : 1613831543342,
+            "duration" : 62773
+          },
+          "flaky" : true,
+          "parameters" : [ "Firefox" ]
+        }, {
+          "name" : "Checking login to the email and sending the mail",
+          "uid" : "1406dcbc354de623",
+          "parentUid" : "14164ddfb19635ffca7dd0d8d4f9ea83",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613831543352,
+            "stop" : 1613831548242,
+            "duration" : 4890
+          },
+          "flaky" : true,
+          "parameters" : [ "Firefox" ]
+        } ],
+        "uid" : "14164ddfb19635ffca7dd0d8d4f9ea83"
+      } ],
+      "uid" : "f626b37f6043f3677ee7275faa1fa539"
+    }, {
+      "name" : "SendEmailTest using Chrome",
+      "children" : [ {
+        "name" : "tests.lesson1.pageObject.SendEmailTest",
+        "children" : [ {
+          "name" : "files upload download",
+          "uid" : "35e178de86c11cdc",
+          "parentUid" : "2940a21cf2936c62d6695cf3d90e3baa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613831467933,
+            "stop" : 1613831496288,
+            "duration" : 28355
+          },
+          "flaky" : true,
+          "parameters" : [ "Chrome" ]
+        }, {
+          "name" : "Checking login to the email and sending the mail",
+          "uid" : "26aba3944d259086",
+          "parentUid" : "2940a21cf2936c62d6695cf3d90e3baa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613831496506,
+            "stop" : 1613831503411,
+            "duration" : 6905
+          },
+          "flaky" : true,
+          "parameters" : [ "Chrome" ]
+        } ],
+        "uid" : "2940a21cf2936c62d6695cf3d90e3baa"
+      } ],
+      "uid" : "fb0d4eca6249c7562930c0e0bacf27db"
+    } ],
+    "uid" : "d933a685730a883dab0edb333d9c7768"
+  } ]
+}

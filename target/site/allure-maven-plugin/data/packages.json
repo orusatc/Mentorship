@@ -1,0 +1,266 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 11,
+    "unknown" : 0,
+    "total" : 11
+  },
+  "time" : {
+    "minDuration" : 0,
+    "maxDuration" : 62769,
+    "sumDuration" : 103210,
+    "start" : 1613907124781,
+    "stop" : 1613907210293,
+    "duration" : 85512
+  },
+  "children" : [ {
+    "uid" : "835bfff373464b6",
+    "name" : "tests",
+    "time" : {
+      "minDuration" : 0,
+      "maxDuration" : 62769,
+      "sumDuration" : 103210,
+      "start" : 1613907124781,
+      "stop" : 1613907210293,
+      "duration" : 85512
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 11
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "1197580b144ef3cc",
+      "name" : "lesson1",
+      "time" : {
+        "minDuration" : 0,
+        "maxDuration" : 62769,
+        "sumDuration" : 103209,
+        "start" : 1613907124781,
+        "stop" : 1613907210276,
+        "duration" : 85495
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "37cb0b42914e2cf6",
+        "name" : "beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod",
+        "time" : {
+          "minDuration" : 0,
+          "maxDuration" : 1,
+          "sumDuration" : 1,
+          "start" : 1613907210252,
+          "stop" : 1613907210276,
+          "duration" : 24
+        },
+        "statistic" : {
+          "failed" : 0,
+          "broken" : 0,
+          "skipped" : 0,
+          "passed" : 2,
+          "unknown" : 0,
+          "total" : 2
+        },
+        "type" : "TestGroupNode",
+        "children" : [ {
+          "uid" : "e3d23fdae9888922",
+          "name" : "testMethod1",
+          "time" : {
+            "start" : 1613907210252,
+            "stop" : 1613907210252,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "e68cb7bf5556f4a3",
+          "name" : "testMethod3",
+          "time" : {
+            "start" : 1613907210275,
+            "stop" : 1613907210276,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        } ]
+      }, {
+        "uid" : "5875d499ab2256f8",
+        "name" : "pageObject.SendEmailTest",
+        "time" : {
+          "minDuration" : 4018,
+          "maxDuration" : 62769,
+          "sumDuration" : 103185,
+          "start" : 1613907124781,
+          "stop" : 1613907207707,
+          "duration" : 82926
+        },
+        "statistic" : {
+          "failed" : 0,
+          "broken" : 0,
+          "skipped" : 0,
+          "passed" : 4,
+          "unknown" : 0,
+          "total" : 4
+        },
+        "type" : "TestGroupNode",
+        "children" : [ {
+          "uid" : "315b3682c3a48476",
+          "name" : "checkDownloading",
+          "time" : {
+            "start" : 1613907138932,
+            "stop" : 1613907201701,
+            "duration" : 62769
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "eb891d7e876ea7dd",
+          "name" : "checkDownloading",
+          "time" : {
+            "start" : 1613907124781,
+            "stop" : 1613907155179,
+            "duration" : 30398
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "720fcb795a5bc9f",
+          "name" : "checkingLoginToTheEmailAndSendingTheMail",
+          "time" : {
+            "start" : 1613907201707,
+            "stop" : 1613907207707,
+            "duration" : 6000
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "33190e95c83c5b43",
+          "name" : "checkingLoginToTheEmailAndSendingTheMail",
+          "time" : {
+            "start" : 1613907155444,
+            "stop" : 1613907159462,
+            "duration" : 4018
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        } ]
+      }, {
+        "uid" : "17745591fbe48223",
+        "name" : "calculator.CalculatorTest",
+        "time" : {
+          "minDuration" : 1,
+          "maxDuration" : 18,
+          "sumDuration" : 23,
+          "start" : 1613907210193,
+          "stop" : 1613907210230,
+          "duration" : 37
+        },
+        "statistic" : {
+          "failed" : 0,
+          "broken" : 0,
+          "skipped" : 0,
+          "passed" : 4,
+          "unknown" : 0,
+          "total" : 4
+        },
+        "type" : "TestGroupNode",
+        "children" : [ {
+          "uid" : "4c076244d2777874",
+          "name" : "calculatorTest4",
+          "time" : {
+            "start" : 1613907210229,
+            "stop" : 1613907210230,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "9ca2b977cc504381",
+          "name" : "calculatorTest2",
+          "time" : {
+            "start" : 1613907210215,
+            "stop" : 1613907210217,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "9715142074f61084",
+          "name" : "calculatorTest3",
+          "time" : {
+            "start" : 1613907210223,
+            "stop" : 1613907210225,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "a0524d6bb324de0f",
+          "name" : "calculatorTest1",
+          "time" : {
+            "start" : 1613907210193,
+            "stop" : 1613907210211,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        } ]
+      } ]
+    }, {
+      "uid" : "b917932b3cda7a19",
+      "name" : "lesson3.CalculatorTest",
+      "time" : {
+        "minDuration" : 1,
+        "maxDuration" : 1,
+        "sumDuration" : 1,
+        "start" : 1613907210292,
+        "stop" : 1613907210293,
+        "duration" : 1
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "decb03453292d4cd",
+        "name" : "parametersFromTestNG",
+        "time" : {
+          "start" : 1613907210292,
+          "stop" : 1613907210293,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

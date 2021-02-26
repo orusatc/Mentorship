@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AAJ02US', ip: '192.168.88.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 17368, moz:profile: C:\\Users\\Rusuk\\AppData\\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: da58fa88-6e04-4fe9-b5b6-fc6c9976d347",
+      "children" : [ {
+        "name" : "setLogin",
+        "uid" : "c63a1f8f1ab77e5c",
+        "parentUid" : "f5fcf104d8fcf4dd078d2273e4ac8f55",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613830259525,
+          "stop" : 1613830259528,
+          "duration" : 3
+        },
+        "flaky" : true,
+        "parameters" : [ "Firefox" ]
+      } ],
+      "uid" : "f5fcf104d8fcf4dd078d2273e4ac8f55"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

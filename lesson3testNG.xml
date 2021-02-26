@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Add few parameters inside testNG">
+    <test name="DataProviderTest">
+        <parameter name="result" value="40"></parameter>
+        <parameter name="num" value="5, 5, 10, 20"></parameter>
+        <classes>
+            <class name="tests.lesson3.CalculatorTest">
+            </class>
+        </classes>
+    </test>
+
+</suite>

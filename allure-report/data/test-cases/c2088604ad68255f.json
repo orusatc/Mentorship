@@ -1,0 +1,59 @@
+{
+  "uid" : "c2088604ad68255f",
+  "name" : "test annotation: calculaorTest3, check multiplication ",
+  "fullName" : "tests.lesson1.calculator.CalculatorTest.calculatorTest3",
+  "historyId" : "a4fac8e50e0fd3dee4763f8a65033eb5",
+  "time" : {
+    "start" : 1613464773419,
+    "stop" : 1613464773422,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.lesson1.calculator.CalculatorTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.lesson1.calculator.CalculatorTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "calculatorTest3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.BeforeAfterSuiteTestClassMethod.lesson1"
+  }, {
+    "name" : "suite",
+    "value" : "Structure, parallel, parameter passing"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.lesson1.calculator.CalculatorTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AAJ02US"
+  }, {
+    "name" : "thread",
+    "value" : "2468@DESKTOP-AAJ02US.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c2088604ad68255f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,106 @@
+{
+  "uid" : "eb891d7e876ea7dd",
+  "name" : "files upload download",
+  "fullName" : "tests.lesson1.pageObject.SendEmailTest.checkDownloading",
+  "historyId" : "d57fd1d6dcc7b239b5ae3a29b5f50aa3",
+  "time" : {
+    "start" : 1613907124781,
+    "stop" : 1613907155179,
+    "duration" : 30398
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "setLogin",
+    "time" : {
+      "start" : 1613907121459,
+      "stop" : 1613907124643,
+      "duration" : 3184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1613907114975,
+      "stop" : 1613907121447,
+      "duration" : 6472
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1613907207721,
+      "stop" : 1613907210184,
+      "duration" : 2463
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.lesson1.pageObject.SendEmailTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.lesson1.pageObject.SendEmailTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkDownloading"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite for parallel run"
+  }, {
+    "name" : "suite",
+    "value" : "SendEmailTest using Chrome"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.lesson1.pageObject.SendEmailTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AAJ02US"
+  }, {
+    "name" : "thread",
+    "value" : "7812@DESKTOP-AAJ02US.TestNG-tests-2(13)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Login test"
+  }, {
+    "name" : "epic",
+    "value" : "Functional test"
+  } ],
+  "parameters" : [ {
+    "name" : "browserType",
+    "value" : "Chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

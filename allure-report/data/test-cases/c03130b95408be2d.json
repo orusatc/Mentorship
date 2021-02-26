@@ -1,0 +1,61 @@
+{
+  "uid" : "c03130b95408be2d",
+  "name" : "test annotation: calculaorTest3, check multiplication ",
+  "fullName" : "tests.lesson1.Calculator.CalculatorTest.calculatorTest3",
+  "historyId" : "84527053c92e5913c2fa8948329e123b",
+  "time" : {
+    "start" : 1613033483931,
+    "stop" : 1613033483937,
+    "duration" : 6
+  },
+  "status" : "failed",
+  "statusMessage" : "The subtract nethod has wrong implementation expected [Optional[75]] but found [75]",
+  "statusTrace" : "java.lang.AssertionError: The subtract nethod has wrong implementation expected [Optional[75]] but found [75]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat pages.lesson1.Calculator.BaseCalculatorPage.checkResult(BaseCalculatorPage.java:25)\r\n\tat pages.lesson1.Calculator.BaseCalculatorPage.checkingMultiplication(BaseCalculatorPage.java:33)\r\n\tat tests.lesson1.Calculator.CalculatorTest.calculatorTest3(CalculatorTest.java:25)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.lesson1.Calculator.CalculatorTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.lesson1.Calculator.CalculatorTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "calculatorTest3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.BeforeAfterSuiteTestClassMethod.lesson1"
+  }, {
+    "name" : "suite",
+    "value" : "Structure, parallel, parameter passing"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.lesson1.Calculator.CalculatorTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AAJ02US"
+  }, {
+    "name" : "thread",
+    "value" : "8236@DESKTOP-AAJ02US.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c03130b95408be2d.json",
+  "parameterValues" : [ ]
+}

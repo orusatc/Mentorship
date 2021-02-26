@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="12" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="tests.lesson1.beforeAfterSuiteTestClassMethod" duration-ms="39" started-at="2021-02-21T11:33:30Z" finished-at="2021-02-21T11:33:30Z">
+    <groups>
+      <group name="group3">
+        <method signature="BeforeAfterSuiteTestClassMethod.testMethod1()[pri:0, instance:tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod@691a7f8f]" name="testMethod1" class="tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod"/>
+      </group> <!-- group3 -->
+      <group name="group1">
+        <method signature="BeforeAfterSuiteTestClassMethod.testMethod3()[pri:0, instance:tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod@691a7f8f]" name="testMethod3" class="tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test name="BeforeAfterSuiteTestClassMethod" duration-ms="39" started-at="2021-02-21T11:33:30Z" finished-at="2021-02-21T11:33:30Z">
+      <class name="tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod@691a7f8f]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2021-02-21T11:33:30Z" finished-at="2021-02-21T11:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod@691a7f8f]" name="beforeTest" is-config="true" duration-ms="1" started-at="2021-02-21T11:33:30Z" finished-at="2021-02-21T11:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod@691a7f8f]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-02-21T11:33:30Z" finished-at="2021-02-21T11:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod@691a7f8f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-02-21T11:33:30Z" finished-at="2021-02-21T11:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethod1()[pri:0, instance:tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod@691a7f8f]" name="testMethod1" duration-ms="7" started-at="2021-02-21T11:33:30Z" description="description annotation: Test1 Before\After suite, test, class, method, groups" finished-at="2021-02-21T11:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod@691a7f8f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-02-21T11:33:30Z" finished-at="2021-02-21T11:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod@691a7f8f]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-02-21T11:33:30Z" finished-at="2021-02-21T11:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethod3()[pri:0, instance:tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod@691a7f8f]" name="testMethod3" duration-ms="2" started-at="2021-02-21T11:33:30Z" description="description annotation: Test3 Before\After suite, test, class, method, groups" finished-at="2021-02-21T11:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod@691a7f8f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-02-21T11:33:30Z" finished-at="2021-02-21T11:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod@691a7f8f]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-02-21T11:33:30Z" finished-at="2021-02-21T11:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod@691a7f8f]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-02-21T11:33:30Z" finished-at="2021-02-21T11:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod@691a7f8f]" name="afterSuite" is-config="true" duration-ms="0" started-at="2021-02-21T11:33:30Z" finished-at="2021-02-21T11:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod -->
+    </test> <!-- BeforeAfterSuiteTestClassMethod -->
+  </suite> <!-- tests.lesson1.beforeAfterSuiteTestClassMethod -->
+  <suite name="Suite for parallel run" duration-ms="92780" started-at="2021-02-21T11:31:54Z" finished-at="2021-02-21T11:33:27Z">
+    <groups>
+    </groups>
+    <test name="SendEmailTest using Chrome" duration-ms="44546" started-at="2021-02-21T11:31:54Z" finished-at="2021-02-21T11:32:39Z">
+      <class name="tests.lesson1.pageObject.SendEmailTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.lesson1.pageObject.SendEmailTest@482cd91f]" name="setup" is-config="true" duration-ms="6498" started-at="2021-02-21T11:31:54Z" finished-at="2021-02-21T11:32:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setLogin()[pri:0, instance:tests.lesson1.pageObject.SendEmailTest@482cd91f]" name="setLogin" is-config="true" duration-ms="3185" started-at="2021-02-21T11:32:01Z" finished-at="2021-02-21T11:32:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setLogin -->
+        <test-method status="PASS" signature="checkDownloading()[pri:0, instance:tests.lesson1.pageObject.SendEmailTest@482cd91f]" name="checkDownloading" duration-ms="30521" started-at="2021-02-21T11:32:04Z" description="files upload download" finished-at="2021-02-21T11:32:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDownloading -->
+        <test-method status="PASS" signature="checkingLoginToTheEmailAndSendingTheMail()[pri:0, instance:tests.lesson1.pageObject.SendEmailTest@482cd91f]" name="checkingLoginToTheEmailAndSendingTheMail" duration-ms="4022" started-at="2021-02-21T11:32:35Z" description="Checking login to the email and sending the mail" finished-at="2021-02-21T11:32:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingLoginToTheEmailAndSendingTheMail -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.lesson1.pageObject.SendEmailTest@482cd91f]" name="teardown" is-config="true" duration-ms="2469" started-at="2021-02-21T11:33:27Z" finished-at="2021-02-21T11:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.lesson1.pageObject.SendEmailTest -->
+    </test> <!-- SendEmailTest using Chrome -->
+    <test name="SendEmailTest using Mozilla" duration-ms="92780" started-at="2021-02-21T11:31:54Z" finished-at="2021-02-21T11:33:27Z">
+      <class name="tests.lesson1.pageObject.SendEmailTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.lesson1.pageObject.SendEmailTest@41ee392b]" name="setup" is-config="true" duration-ms="12471" started-at="2021-02-21T11:31:54Z" finished-at="2021-02-21T11:32:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setLogin()[pri:0, instance:tests.lesson1.pageObject.SendEmailTest@41ee392b]" name="setLogin" is-config="true" duration-ms="11508" started-at="2021-02-21T11:32:07Z" finished-at="2021-02-21T11:32:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setLogin -->
+        <test-method status="PASS" signature="checkDownloading()[pri:0, instance:tests.lesson1.pageObject.SendEmailTest@41ee392b]" name="checkDownloading" duration-ms="62773" started-at="2021-02-21T11:32:18Z" description="files upload download" finished-at="2021-02-21T11:33:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDownloading -->
+        <test-method status="PASS" signature="checkingLoginToTheEmailAndSendingTheMail()[pri:0, instance:tests.lesson1.pageObject.SendEmailTest@41ee392b]" name="checkingLoginToTheEmailAndSendingTheMail" duration-ms="6004" started-at="2021-02-21T11:33:21Z" description="Checking login to the email and sending the mail" finished-at="2021-02-21T11:33:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingLoginToTheEmailAndSendingTheMail -->
+      </class> <!-- tests.lesson1.pageObject.SendEmailTest -->
+    </test> <!-- SendEmailTest using Mozilla -->
+  </suite> <!-- Suite for parallel run -->
+  <suite name="tests.BeforeAfterSuiteTestClassMethod.lesson1" duration-ms="45" started-at="2021-02-21T11:33:30Z" finished-at="2021-02-21T11:33:30Z">
+    <groups>
+      <group name="1">
+        <method signature="CalculatorTest.calculatorTest1()[pri:0, instance:tests.lesson1.calculator.CalculatorTest@2c34f934]" name="calculatorTest1" class="tests.lesson1.calculator.CalculatorTest"/>
+        <method signature="CalculatorTest.calculatorTest3()[pri:0, instance:tests.lesson1.calculator.CalculatorTest@2c34f934]" name="calculatorTest3" class="tests.lesson1.calculator.CalculatorTest"/>
+      </group> <!-- 1 -->
+      <group name="2">
+        <method signature="CalculatorTest.calculatorTest2()[pri:0, instance:tests.lesson1.calculator.CalculatorTest@2c34f934]" name="calculatorTest2" class="tests.lesson1.calculator.CalculatorTest"/>
+      </group> <!-- 2 -->
+      <group name="3">
+        <method signature="CalculatorTest.calculatorTest4()[pri:0, instance:tests.lesson1.calculator.CalculatorTest@2c34f934]" name="calculatorTest4" class="tests.lesson1.calculator.CalculatorTest"/>
+      </group> <!-- 3 -->
+    </groups>
+    <test name="Structure, parallel, parameter passing" duration-ms="45" started-at="2021-02-21T11:33:30Z" finished-at="2021-02-21T11:33:30Z">
+      <class name="tests.lesson1.calculator.CalculatorTest">
+        <test-method status="PASS" signature="calculatorTest1()[pri:0, instance:tests.lesson1.calculator.CalculatorTest@2c34f934]" name="calculatorTest1" duration-ms="20" started-at="2021-02-21T11:33:30Z" description="test annotation: calculaorTest1, check subtraction " finished-at="2021-02-21T11:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculatorTest1 -->
+        <test-method status="PASS" signature="calculatorTest2()[pri:0, instance:tests.lesson1.calculator.CalculatorTest@2c34f934]" name="calculatorTest2" duration-ms="4" started-at="2021-02-21T11:33:30Z" description="test annotation: calculaorTest2, check addition " finished-at="2021-02-21T11:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculatorTest2 -->
+        <test-method status="PASS" signature="calculatorTest3()[pri:0, instance:tests.lesson1.calculator.CalculatorTest@2c34f934]" name="calculatorTest3" duration-ms="4" started-at="2021-02-21T11:33:30Z" description="test annotation: calculaorTest3, check multiplication " finished-at="2021-02-21T11:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculatorTest3 -->
+        <test-method status="PASS" signature="calculatorTest4()[pri:0, instance:tests.lesson1.calculator.CalculatorTest@2c34f934]" name="calculatorTest4" duration-ms="4" started-at="2021-02-21T11:33:30Z" description="test annotation: calculaorTest4, check division " finished-at="2021-02-21T11:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculatorTest4 -->
+      </class> <!-- tests.lesson1.calculator.CalculatorTest -->
+    </test> <!-- Structure, parallel, parameter passing -->
+  </suite> <!-- tests.BeforeAfterSuiteTestClassMethod.lesson1 -->
+  <suite name="Add few parameters inside testNG" duration-ms="5" started-at="2021-02-21T11:33:30Z" finished-at="2021-02-21T11:33:30Z">
+    <groups>
+    </groups>
+    <test name="DataProviderTest" duration-ms="5" started-at="2021-02-21T11:33:30Z" finished-at="2021-02-21T11:33:30Z">
+      <class name="tests.lesson3.CalculatorTest">
+        <test-method status="PASS" signature="parametersFromTestNG(int, java.lang.String)[pri:0, instance:tests.lesson3.CalculatorTest@53ca01a2]" name="parametersFromTestNG" duration-ms="3" started-at="2021-02-21T11:33:30Z" description="test annotation: calculatorTest1, check addition " finished-at="2021-02-21T11:33:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5, 5, 10, 20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parametersFromTestNG -->
+      </class> <!-- tests.lesson3.CalculatorTest -->
+    </test> <!-- DataProviderTest -->
+  </suite> <!-- Add few parameters inside testNG -->
+</testng-results>

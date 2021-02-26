@@ -1,0 +1,167 @@
+{
+  "uid" : "e68cb7bf5556f4a3",
+  "name" : "description annotation: Test3 Before\\After suite, test, class, method, groups",
+  "fullName" : "tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod.testMethod3",
+  "historyId" : "7aae13066824d6a747f3de8a9dc56a2",
+  "time" : {
+    "start" : 1613907210275,
+    "stop" : 1613907210276,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1613907210243,
+      "stop" : 1613907210243,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1613907210243,
+      "stop" : 1613907210243,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1613907210269,
+      "stop" : 1613907210270,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1613907210242,
+      "stop" : 1613907210242,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1613907210280,
+      "stop" : 1613907210280,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1613907210278,
+      "stop" : 1613907210278,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1613907210281,
+      "stop" : 1613907210281,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1613907210288,
+      "stop" : 1613907210288,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod"
+  }, {
+    "name" : "testMethod",
+    "value" : "testMethod3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.lesson1.beforeAfterSuiteTestClassMethod"
+  }, {
+    "name" : "suite",
+    "value" : "BeforeAfterSuiteTestClassMethod"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AAJ02US"
+  }, {
+    "name" : "thread",
+    "value" : "7812@DESKTOP-AAJ02US.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

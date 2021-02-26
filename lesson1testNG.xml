@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="tests.lesson1.beforeAfterSuiteTestClassMethod">
+    <test name="BeforeAfterSuiteTestClassMethod">
+
+      <!--To run testMethod2 using "group"-->
+       <!--<groups>-->
+           <!--<run>-->
+               <!--<include name="group2"/>-->
+               <!--<include name="group1"/>-->
+           <!--</run>-->
+       <!--</groups>-->
+
+        <!--To run public class BeforeAfterSuiteTestClassMethod using "group"-->
+        <classes>
+            <class name="tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod">
+                <methods>
+                    <include name="testMethod1"></include>
+                    <include name="testMethod3"></include>
+                    <exclude name="testMethod2"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

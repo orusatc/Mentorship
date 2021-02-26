@@ -1,0 +1,116 @@
+{
+  "uid" : "75840873a271d6b6",
+  "name" : "Checking login to the email and sending the mail",
+  "fullName" : "tests.lesson1.pageObject.SendEmailTest.checkingLoginToTheEmailAndSendingTheMail",
+  "historyId" : "a66667479d2926cafd1b2ddb4fdc15a9",
+  "time" : {
+    "start" : 1613465049784,
+    "stop" : 1613465054540,
+    "duration" : 4756
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setLogin",
+    "time" : {
+      "start" : 1613465028612,
+      "stop" : 1613465031543,
+      "duration" : 2931
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1613465025178,
+      "stop" : 1613465028601,
+      "duration" : 3423
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1613465076291,
+      "stop" : 1613465079406,
+      "duration" : 3115
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.lesson1.pageObject.SendEmailTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.lesson1.pageObject.SendEmailTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkingLoginToTheEmailAndSendingTheMail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite for parallel run"
+  }, {
+    "name" : "suite",
+    "value" : "SendEmailTest using Chrome"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.lesson1.pageObject.SendEmailTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AAJ02US"
+  }, {
+    "name" : "thread",
+    "value" : "12788@DESKTOP-AAJ02US.TestNG-tests-2(12)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Login test"
+  }, {
+    "name" : "epic",
+    "value" : "Functional test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browserType",
+    "value" : "Chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "75840873a271d6b6.json",
+  "parameterValues" : [ "Chrome" ]
+}
