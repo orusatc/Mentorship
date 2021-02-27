@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">4 suites</span>
+      <span class="top-banner-font-1">4 suites, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -122,7 +122,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite_for_parallel_run">
-              <span class="suite-name border-passed">Suite for parallel run</span>
+              <span class="suite-name border-failed">Suite for parallel run</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -175,7 +175,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite_for_parallel_run" class="hide-methods failed suite-Suite_for_parallel_run"> (hide)</a> <!-- hide-methods failed suite-Suite_for_parallel_run -->
+                      <a href="#" panel-name="suite-Suite_for_parallel_run" class="show-methods failed suite-Suite_for_parallel_run"> (show)</a> <!-- show-methods failed suite-Suite_for_parallel_run -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite_for_parallel_run">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_for_parallel_run" title="tests.lesson1.pageObject.SendEmailTest" hash-for-method="checkDownloading">checkDownloading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite_for_parallel_run -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -184,11 +198,6 @@
                       <a href="#" panel-name="suite-Suite_for_parallel_run" class="show-methods passed suite-Suite_for_parallel_run"> (show)</a> <!-- show-methods passed suite-Suite_for_parallel_run -->
                     </span>
                     <div class="method-list-content passed suite-Suite_for_parallel_run">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite_for_parallel_run" title="tests.lesson1.pageObject.SendEmailTest" hash-for-method="checkDownloading">checkDownloading</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite_for_parallel_run" title="tests.lesson1.pageObject.SendEmailTest" hash-for-method="checkDownloading">checkDownloading</a> <!-- method navigator-link -->
@@ -417,9 +426,9 @@
           </div> <!-- suite-tests.lesson1.beforeAfterSuiteTestClassMethod-class-passed -->
         </div> <!-- panel tests.lesson1.beforeAfterSuiteTestClassMethod -->
         <div panel-name="suite-Suite_for_parallel_run" class="panel Suite_for_parallel_run">
-          <div class="suite-Suite_for_parallel_run-class-passed">
+          <div class="suite-Suite_for_parallel_run-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">tests.lesson1.pageObject.SendEmailTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -428,10 +437,28 @@
                   <a name="checkDownloading">
                   </a> <!-- checkDownloading -->
                   <span class="method-name">checkDownloading</span>
+                  <div class="stack-trace">java.lang.AssertionError: File was not downloaded expected [true] but found [false]
+	at pages.lesson1.PageObject.BasePage.assertTrue(BasePage.java:86)
+	at pages.lesson1.PageObject.UkrNetHomePage.checkFileDownloading(UkrNetHomePage.java:115)
+	at tests.lesson1.pageObject.SendEmailTest.checkDownloading(SendEmailTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
                   <em>
 (files upload download)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_for_parallel_run-class-failed -->
+          <div class="suite-Suite_for_parallel_run-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.lesson1.pageObject.SendEmailTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="checkDownloading">
@@ -586,6 +613,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;tests.BeforeAfterSuiteTestClassMethod.lesson1&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.lesson4.observer.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Structure, parallel, parameter passing&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.lesson1.calculator.CalculatorTest&quot;/&gt;
@@ -756,7 +786,7 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testMethod1')
 data.setCell(0, 2, 'tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod')
-data.setCell(0, 3, 7);
+data.setCell(0, 3, 4);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testMethod3')
 data.setCell(1, 2, 'tests.lesson1.beforeAfterSuiteTestClassMethod.BeforeAfterSuiteTestClassMethod')
@@ -765,7 +795,7 @@ window.suiteTableData['tests.lesson1.beforeAfterSuiteTestClassMethod']= { tableD
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 ms</span>
+              <span class="suite-total-time">Total running time: 6 ms</span>
               <div id="times-div-tests.lesson1.beforeAfterSuiteTestClassMethod">
               </div> <!-- times-div-tests.lesson1.beforeAfterSuiteTestClassMethod -->
             </div> <!-- times-div -->
@@ -789,24 +819,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'checkDownloading')
 data.setCell(0, 2, 'tests.lesson1.pageObject.SendEmailTest')
-data.setCell(0, 3, 62773);
+data.setCell(0, 3, 69387);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'checkDownloading')
 data.setCell(1, 2, 'tests.lesson1.pageObject.SendEmailTest')
-data.setCell(1, 3, 30521);
+data.setCell(1, 3, 33300);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'checkingLoginToTheEmailAndSendingTheMail')
 data.setCell(2, 2, 'tests.lesson1.pageObject.SendEmailTest')
-data.setCell(2, 3, 6004);
+data.setCell(2, 3, 10950);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'checkingLoginToTheEmailAndSendingTheMail')
 data.setCell(3, 2, 'tests.lesson1.pageObject.SendEmailTest')
-data.setCell(3, 3, 4022);
+data.setCell(3, 3, 8775);
 window.suiteTableData['Suite_for_parallel_run']= { tableData: data, tableDiv: 'times-div-Suite_for_parallel_run'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite_for_parallel_run">
               </div> <!-- times-div-Suite_for_parallel_run -->
             </div> <!-- times-div -->
@@ -830,24 +860,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'calculatorTest1')
 data.setCell(0, 2, 'tests.lesson1.calculator.CalculatorTest')
-data.setCell(0, 3, 20);
+data.setCell(0, 3, 43);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'calculatorTest2')
+data.setCell(1, 1, 'calculatorTest3')
 data.setCell(1, 2, 'tests.lesson1.calculator.CalculatorTest')
-data.setCell(1, 3, 4);
+data.setCell(1, 3, 6);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'calculatorTest4')
 data.setCell(2, 2, 'tests.lesson1.calculator.CalculatorTest')
-data.setCell(2, 3, 4);
+data.setCell(2, 3, 5);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'calculatorTest3')
+data.setCell(3, 1, 'calculatorTest2')
 data.setCell(3, 2, 'tests.lesson1.calculator.CalculatorTest')
-data.setCell(3, 3, 4);
+data.setCell(3, 3, 5);
 window.suiteTableData['tests.BeforeAfterSuiteTestClassMethod.lesson1']= { tableData: data, tableDiv: 'times-div-tests.BeforeAfterSuiteTestClassMethod.lesson1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 ms</span>
+              <span class="suite-total-time">Total running time: 59 ms</span>
               <div id="times-div-tests.BeforeAfterSuiteTestClassMethod.lesson1">
               </div> <!-- times-div-tests.BeforeAfterSuiteTestClassMethod.lesson1 -->
             </div> <!-- times-div -->
@@ -962,43 +992,43 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">2 ms</span>
+                <span class="method-start">3 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">3 ms</span>
+                <span class="method-start">6 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testMethod1</span>
-                <span class="method-start">4 ms</span>
+                <span class="method-start">9 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">13 ms</span>
+                <span class="method-start">16 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">28 ms</span>
+                <span class="method-start">21 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testMethod3</span>
-                <span class="method-start">32 ms</span>
+                <span class="method-start">23 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">36 ms</span>
+                <span class="method-start">26 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">38 ms</span>
+                <span class="method-start">28 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">40 ms</span>
+                <span class="method-start">30 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">47 ms</span>
+                <span class="method-start">117 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -1019,31 +1049,33 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">setLogin</span>
-                <span class="method-start">6511 ms</span>
+                <span class="method-start">8036 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">checkDownloading</span>
-                <span class="method-start">9708 ms</span>
+                <span class="method-start">13849 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class before">
                 <span class="method-name">setLogin</span>
-                <span class="method-start">12472 ms</span>
+                <span class="method-start">16670 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkDownloading</span>
-                <span class="method-start">23980 ms</span>
+                <span class="method-start">20207 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkingLoginToTheEmailAndSendingTheMail</span>
-                <span class="method-start">40493 ms</span>
+                <span class="method-start">90047 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkingLoginToTheEmailAndSendingTheMail</span>
-                <span class="method-start">86756 ms</span>
+                <span class="method-start">90224 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">92768 ms</span>
+                <span class="method-start">101313 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -1060,15 +1092,15 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">calculatorTest2</span>
-                <span class="method-start">23 ms</span>
+                <span class="method-start">47 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">calculatorTest3</span>
-                <span class="method-start">31 ms</span>
+                <span class="method-start">55 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">calculatorTest4</span>
-                <span class="method-start">36 ms</span>
+                <span class="method-start">74 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
