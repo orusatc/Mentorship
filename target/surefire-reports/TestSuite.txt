@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: TestSuite
--------------------------------------------------------------------------------
-Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 107.654 s <<< FAILURE! - in TestSuite
-checkDownloading(tests.lesson1.pageObject.SendEmailTest)  Time elapsed: 0.001 s  <<< FAILURE!
-java.lang.AssertionError: File was not downloaded expected [true] but found [false]
-	at tests.lesson1.pageObject.SendEmailTest.checkDownloading(SendEmailTest.java:39)
-

@@ -5,8 +5,7 @@
 *.ipr
 
 # Maven
-log/
-target/
+target
 
 # Allure
 .allure
